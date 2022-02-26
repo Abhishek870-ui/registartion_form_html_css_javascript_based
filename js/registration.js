@@ -143,5 +143,5 @@ function formsubmittion() {
 
 
 function formValidate() {
-    window.open("professional_details.html", parent)
+    window.location.href = professional_details.html
 }
