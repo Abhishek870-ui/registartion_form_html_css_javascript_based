@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: 5%;
+    justify-content: center;
+    background: linear-gradient(to right, #6A9113, #141517);
+    color: antiquewhite;
+}
+
+.card-header h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px maroon;
+}
+
+.card-body textarea {
+    background-color: transparent;
+    color: antiquewhite;
+    border: none;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.card-body {
+    font-weight: bold;
+}
+
+.card-footer #submit {
+    float: right;
+    padding: 1%;
+    background-color: transparent;
+    color: antiquewhite;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.card-footer #submit input[type=button]:hover {
+    background-color: aquamarine;
+}
+
+input[type=button] {
+    width: 50%;
+    text-align: center;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 40px;
+}
+
+input[type=button]:hover {
+    background-color: aquamarine;
+}

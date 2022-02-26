@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .row {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    margin-left: 10%;
+    margin: 5%;
+    background: linear-gradient(to right, #6A9113, #141517);
+    padding: 6%;
+}
+
+h1 {
+    text-align: center;
+    margin: 1%;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px maroon;
+}
+
+.col-3 {
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.form-group input {
+    font-size: large;
+    font-weight: bold;
+    margin: 3%;
+    color: antiquewhite;
+    background-color: transparent;
+    padding: 1%;
+}
+
+.form-group input::placeholder {
+    font-size: large;
+    font-weight: bold;
+    margin: 3%;
+    color: antiquewhite;
+}
+
+input[type=text] {
+    width: 50%;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 50%;
+    text-align: center;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 40px;
+}
+
+input[type=submit]:hover {
+    background-color: aquamarine;
+}
+
+.error {
+    text-align: center;
+    font-size: x-large;
+    color: red;
+}
+
+input[type=email] {
+    width: 50%;
+    text-align: center;
+}
+
+input[type=number] {
+    width: 50%;
+    text-align: center;
+}
+
+input[type=button] {
+    width: 50%;
+    text-align: center;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 40px;
+}
+
+input[type=button]:hover {
+    background-color: aquamarine;
+}

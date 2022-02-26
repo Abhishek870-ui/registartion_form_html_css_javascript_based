@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- *****  This is a meta section  *****  -->
+
+    <meta charset="UTF-8">
+    <meta name="description" content=" Content for HTML,CSS,Bootstrap,javascript">
+    <meta name="keywords" content="html,css,bootstap,javascript,html and css,ag acadmy,ag">
+    <meta name="author" content="Abhishek Garg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <!-- *****  This is a fontawosme section  *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CDN  -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- *** This is Favicon Image section ***-->
+
+    <link rel="shortcut icon" href="img/logo/images (2).jfif" type="image/x-icon">
+
+    <!-- css link section  -->
+
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- *** This is script section ***-->
+    <script src="js/header-footer.js"></script>
+
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <!-- *** Background Section *** -->
+    <div class="registration">
+        <div class="row">
+            <div class="col-3">
+                <img src="img/page/images (1).jfif" alt="">
+            </div>
+            <div class="col">
+                <form method="post" action="professional_details.html">
+                    <div class="container mt-3 m-auto">
+                        <label>Applicant's Name</label>
+                        <input type="text" id="uname" placeholder="Enter your Name">
+                        <div class="error" id="error-username"></div>
+                        <br>
+                        <label>Father's Name</label>
+                        <input type="text" id="fname" placeholder="Enter your Father's Name">
+                        <div class="error" id="error-fname"></div>
+                        <br>
+                        <label>Mother's Name</label>
+                        <input type="text" id="mname" placeholder="Enter your Mother's Name">
+                        <div class="error" id="error-mname"></div>
+                        <br>
+                        <label>Email ID</label>
+                        <input type="email" id="email" placeholder="Please enter your Emailid">
+                        <div class="error" id="error-email"></div>
+
+
+                        <br>
+
+                        <label>Phone NO.</label>
+                        <input type="number" id="phone" placeholder="Please enter your Phone No.">
+                        <div class="error" id="error-phone"></div>
+
+                        <br>
+                        <label>Gender</label>
+
+                        <input type="radio" id="gender" name="gender" value="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="gender" name="gender" value="Female">
+                        <label for="Female">Female</label>
+                        <div class="error" id="error-gender"></div>
+
+                        <br>
+                        <label>Date of Birth</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
+
+                        <br>
+                        <label>Matrial Status</label>
+
+                        <input type="radio" id="status" name="status" value="Unmarried">
+                        <label for="Unmarried">Unmarried</label>
+                        <input type="radio" id="status" name="status" value="Married">
+                        <label for="Married">Married</label>
+
+
+                        <br>
+                        <label>Nationality</label>
+                        <input type="text" id="nationality" placeholder="Enter your Natinality">
+                        <div class="error" id="error-nationality"></div>
+                        <br>
+
+                        <label>Religion</label>
+                        <input type="text" id="religion" placeholder="Enter your Religion">
+                        <div class="error" id="error-religion"></div>
+                        <br>
+                        <input type="button" id="button" value="Submit" onclick="formsubmittion()">
+                        <br>
+                        <input type="submit" id="submit" value="Next Page" onclick="formValidate()">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- *** This is header section ***-->
+    <div id="footer"></div>
+
+    <!--  *** Script section *** -->
+    <script src="js/registration.js"></script>
+
+</body>
+
+</html>

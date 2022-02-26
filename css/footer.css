@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 1%;
+    background: linear-gradient(to left, #1f4037, #99f2c8);
+    padding: 1%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/declaration.css">
+    <script src="js/header-footer.js"></script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Self Declaration Form</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                    I, Shri/Smt.<textarea></textarea>, son/wife/daughter of Shri.<textarea></textarea>, age <textarea></textarea>, resident of <textarea></textarea> District<textarea></textarea> hereby declare that the information given above and in the
+                    enclosed documents is true to the best of my knowledge and belief and nothing has been concealed therein. I am well aware of the fact that if the information given by me is proved false/not true, I will have to face the punishment
+                    as per the law. Also, all the benefits availed by me shall be summarily withdrawn.
+
+                </p>
+            </div>
+            <div class="card-footer">
+                <span>Date </span>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <br>
+                <span>Sign</span>
+                <input type="file" id="file" name="file" required>
+
+                <br>
+                <input type="button" id="button" value="Submit" onclick="formsubmittion()">
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+    <script src="js/declaration.js"></script>
+
+</body>
+
+</html>
