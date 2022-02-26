@@ -143,5 +143,5 @@ function formsubmittion() {
 
 
 function formValidate() {
-    window.open("http://127.0.0.1:5500/professional_details.html", parent)
+    window.open("professional_details.html", parent)
 }
